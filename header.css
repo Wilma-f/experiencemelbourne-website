@@ -1,0 +1,94 @@
+/*Mobile First View*/
+header {
+    background-color:white;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(15, 14, 14);
+    float: left;
+    padding: 0 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    text-align: center;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#hamburger_checkbox {
+    display: none;
+}
+
+#hamburger_image {
+    background-color: white;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 10%;
+}
+
+/* show and hide the menu */
+#hamburger_checkbox:not(:checked)+nav {
+    display: none;
+}
+
+nav a {
+    color: black;
+    float: left;
+    font-size: 17px;
+   font-weight: 600 ;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration:solid;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Invert colors on mouse hover */
+nav a:hover{
+    color: rgb(6, 118, 166);  
+}
+
+/* Invert colors on tab key focus*/
+nav a:focus {
+    color: rgb(7, 133, 164);
+    outline: none
+}
+
+/* Highlight the current link - change link to text*/
+.active_nav {
+    background-color: white;
+    color: rgb(146, 60, 3);
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* hide the hamburger menu */
+    #hamburger_image {
+        display: none;
+    }
+
+    /* show the nav links */
+    #hamburger_checkbox:not(:checked)+nav {
+        display: block;
+    }
+
+    h1 {
+        text-align: left;
+        width: 390px;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav a {
+        width: auto;
+    }
+}

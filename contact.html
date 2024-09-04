@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Experience Melbourne" />
+    <title>Experience Melbourne</title>
+    <link rel="icon" type="image/x-icon" href="images/emfavicon.ico" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Experience Melbourne</h1>
+        <label for="hamburger_checkbox">
+            <img src="images/Hamburger_icon.svg" alt="Menu" id="hamburger_image">
+        </label>
+        <input type="checkbox" id="hamburger_checkbox">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active_nav">Contact</a>
+        </nav>
+    </header>
+
+    <form id="contact_form" method="post">
+        <label for='fname'>Name:</label>
+        <input type='text' id='fname' name='fname' autocomplete='given-name'>
+        <label for='lname'>Last name:</label><br />
+        <input type='text' id='lname' name='lname' autocomplete='family-name' /><br />
+        <label for='email'>Email:</label><br />
+        <input type='email' id='email' name='email' autocomplete='email' /><br />
+        <label for='mobile'>Mobile:</label><br />
+        <input type='text' id='mobile' name='mobile' autocomplete='tel' pattern="\d{3}-\d{3}-d{4}" 
+        palceholder="123-456-7890" required><small>Format:123-456-7890(digits only)</small><br /><br />
+
+        <label for='message'>Message:</label><br />
+        <textarea  id="message" name="message"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <footer>
+        <!-- Displays the title, author, and Creative Commons license information with icons -->
+      <p>
+            <span property="dct:title">Experience Melbourne &copy;</span> by
+            <span property="cc:attributionName">Wilma Fernandes</span> is licensed under
+            <br>
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank"
+                rel="license noopener noreferrer">CC BY-SA 4.0
+                <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

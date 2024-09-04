@@ -1,0 +1,153 @@
+/*Mobile first View*/
+section{
+    width: 100%;
+   /* min-width: 100vh;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+ }
+
+ #main_image{
+    width: 100%;
+    height: auto;
+}
+
+.image-credit {
+    width: 20%;
+    padding:3px;
+    font-size: 10px;
+    color:black;
+    flex-wrap: wrap;
+}
+
+.image-credit a {
+    color: #044e99;
+    text-decoration:none; 
+}
+.image-credit a:hover {
+    text-decoration:underline;
+}
+
+.click-and-ask-options-container {
+    width:60%;
+    min-height: 200px;
+    background-color: rgba(248, 249, 250, 0.9);
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.click-and-ask-headline {
+    font-size: 25px; 
+    color: #343a40; 
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.click-and-ask-options{
+    display: flex;
+    text-align: center;
+}
+
+.click-and-ask-options ul li {
+    display: inline-flex;
+    list-style: none; 
+    margin: 0 auto;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for links inside list items */
+.click-and-ask-options a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0b0b0b; /* Blue color for links */
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff; /* White background for link blocks */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for links */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}  
+/* Change background and shadow on hover */
+.click-and-ask-options a:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+/* Text inside links */
+.click-and-ask-options span {
+    display: flex;
+    font-size: 12px; /* Adjust text size */
+    line-height: 1.4; /* Improve line height for readability */
+}
+
+
+/* Responsive styles */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {   
+    .click-and-ask-headline {
+        font-size: 25px;
+    }
+    .image-credit {
+         font-size: 11px;      
+        }
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .click-and-ask-headline {
+        font-size: 28px;
+    }
+    .image-credit {
+            font-size: 12px; 
+        }  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    .click-and-ask-headline {
+        font-size: 30px;
+    }
+    .click-and-ask-options span {
+        font-size: 14px; 
+       }
+
+    .image-credit {
+        font-size: 13px; 
+    }
+    #main_image{
+        height: 600px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .click-and-ask-headline {
+        font-size: 30px;
+    }
+     .image-credit {
+        font-size: 14px; 
+    }
+    .click-and-ask-options span {
+        font-size: 16px; 
+       }
+
+    #main_image{
+        height: 600px;
+    }
+}
+
+
