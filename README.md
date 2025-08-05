@@ -15,3 +15,5 @@ A responsive, accessible, and SEO-optimized static website about Melbourne. The 
 -Responsive photo grid with multiple layouts.
 
 -XML sitemap included.
+
+https://www.google.com/
