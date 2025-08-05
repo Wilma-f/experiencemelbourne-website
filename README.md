@@ -16,4 +16,3 @@ A responsive, accessible, and SEO-optimized static website about Melbourne. The 
 
 -XML sitemap included.
 
-https://www.google.com/
