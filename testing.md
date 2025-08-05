@@ -3,28 +3,28 @@ Date: 03/09/2024
 # 1. Validation Testing:
 Testing to ensure that a web page's code meets specified requirements and industry standards. It helps to verify that the code is free from syntax errors, well-structured and the web pages display correctly and function well across different browsers.  
 Test Execution Schedule: Start Date: 1/09/2024  
-End Date: 1/09/2024
-Test Cases: 
-# Test Case 1: HTML Validation:
+End Date: 1/09/2024  
+Test Cases:  
+# Test Case 1: HTML Validation:  
 Check that HTML files pass W3C validation. Check for unclosed tags, improper nesting of elements, and semantic correctness and attribute Syntax Errors.   
-Description: Verify that all HTML files (index.html, photo.html, about.html, contact.html) pass validation checks.
-Steps to Execute:
-    Go to the W3C Markup Validation Service website. ( https://validator.w3.org/)
-    Upload the html files for validation. (index.html, photo.html, about.html, contact.html)
-    Click Check.
-    Review the results.
-    Fix any errors and recheck.
-    Expected Results: All the HTML files meet W3C standards and no errors.
-Test Data/Configurations: All HTML files (index.html, photo.html, about.html, contact.html)
+Description: Verify that all HTML files (index.html, photo.html, about.html, contact.html) pass validation checks.  
+Steps to Execute:  
+    Go to the W3C Markup Validation Service website. ( https://validator.w3.org/)  
+    Upload the html files for validation. (index.html, photo.html, about.html, contact.html)  
+    Click Check.  
+    Review the results.  
+    Fix any errors and recheck.  
+    Expected Results: All the HTML files meet W3C standards and no errors.  
+Test Data/Configurations: All HTML files (index.html, photo.html, about.html, contact.html)  
 
-#  Test Case 2: CSS Validation.
-check that CSS files pass W3C validation. Check for proper syntax, selectors and duplicate CSS Code.
-Description: Verify that all CSS files (general.css, header.css, footer.css, index.css, photo.css, about.css, contact.css) pass validation checks.
-Steps to Execute:
-    Go to the W3C CSS Validation Service website. (https://jigsaw.w3.org/css-validator/)
-    Upload the CSS files for validation. (index.css, general.css, header.css, footer.css, photo.css, about.css, contact.css)
-    Click Check.
-    Review the results.
+#  Test Case 2: CSS Validation.  
+check that CSS files pass W3C validation. Check for proper syntax, selectors and duplicate CSS Code.  
+Description: Verify that all CSS files (general.css, header.css, footer.css, index.css, photo.css, about.css, contact.css) pass validation checks.  
+Steps to Execute:  
+    Go to the W3C CSS Validation Service website. (https://jigsaw.w3.org/css-validator/)  
+    Upload the CSS files for validation. (index.css, general.css, header.css, footer.css, photo.css, about.css, contact.css)  
+    Click Check.  
+    Review the results.  
     Fix any errors and recheck.
     Expected Results: All the CSS files meet W3C standards and no errors.
 Test Data/Configurations: All CSS files (general.css, header.css, footer.css, index.css, photo.css, about.css, contact.css)
