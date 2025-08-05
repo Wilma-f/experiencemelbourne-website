@@ -2,9 +2,7 @@ Date: 03/09/2024
 
 # 1. Validation Testing:
 Testing to ensure that a web page's code meets specified requirements and industry standards. It helps to verify that the code is free from syntax errors, well-structured and the web pages display correctly and function well across different browsers.  
-Test Execution Schedule: 
-Start Date: 1/09/2024  
-                        
+Test Execution Schedule: Start Date: 1/09/2024  
 End Date: 1/09/2024
 Test Cases: 
 # Test Case 1: HTML Validation:
