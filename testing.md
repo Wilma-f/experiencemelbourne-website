@@ -1,10 +1,12 @@
 Date: 03/09/2024
 
 # 1. Validation Testing:
+
 Testing to ensure that a web page's code meets specified requirements and industry standards. It helps to verify that the code is free from syntax errors, well-structured and the web pages display correctly and function well across different browsers.  
 Test Execution Schedule: Start Date: 1/09/2024  
 End Date: 1/09/2024  
-Test Cases:  
+
+# Test Cases:  
 # Test Case 1: HTML Validation:  
 Check that HTML files pass W3C validation. Check for unclosed tags, improper nesting of elements, and semantic correctness and attribute Syntax Errors.   
 Description: Verify that all HTML files (index.html, photo.html, about.html, contact.html) pass validation checks.  
