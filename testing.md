@@ -1,3 +1,4 @@
+
 # 1. Validation Testing
 
 Testing to ensure that a web page's code meets specified requirements and industry standards. It helps to verify that the code is free from syntax errors, well-structured, and the web pages display correctly and function well across different browsers.
@@ -67,3 +68,129 @@ End Date: 2/09/2024
 
 **Expected Result**:  
 - Descriptive alt text for images.  
+- Adequate colour contrast.  
+- Clear and navigable content.
+
+**Test Data**: Images, text, navigation content across all pages.
+
+## Test Case 4: Keyboard Navigation
+
+**Tools Used**:  
+- Chrome DevTools  
+- WAVE extension  
+- Manual testing  
+
+**Steps to Execute**:
+
+**Using Chrome DevTools**:
+1. Open DevTools (`Ctrl+Shift+I` or `Cmd+Opt+I`).
+2. Go to the **Accessibility** tab.
+3. Inspect focus indicators.
+4. Use `Tab` key to simulate keyboard navigation.
+
+**Using WAVE Extension**:
+1. Run WAVE evaluation.
+2. Check for focus indicators and keyboard accessibility issues.
+
+**Manual Testing**:
+1. Use `Tab` to navigate.
+2. Confirm all interactive elements (buttons, links, forms) are accessible and follow logical tab order.
+
+**Expected Result**:  
+All interactive elements are reachable and usable with keyboard navigation.  
+**Test Data**: Buttons, links, form fields on the website.
+
+---
+
+# 3. Browser Testing
+
+**Description**: Test that the website displays and functions correctly across different browsers and screen sizes.
+
+**Test Execution Schedule**  
+Start Date: 3/09/2024  
+End Date: 3/09/2024  
+
+## Test Case 5: Browser Compatibility & Responsive Design
+
+**Description**:  
+- Check functionality across Chrome, Edge, and Firefox.  
+- Verify responsiveness on desktop, tablet, and mobile.
+
+**Steps to Execute**:
+1. Start local server (e.g. Live Server in VS Code).
+2. Install & launch BrowserStack extension.
+3. Test site using the local URL (e.g., `http://localhost:5500`).
+4. Test responsiveness on different screen sizes.
+5. Perform manual tests on:
+   - Navigation menus
+   - Forms (submit, input fields)
+   - Layout consistency
+6. Repeat for each browser.
+
+**Expected Result**:  
+Website functions and displays correctly on all tested browsers and screen sizes.  
+**Test Data**: Chrome, Firefox, Edge; various screen resolutions.
+
+---
+
+# 4. Test Execution Summary
+
+## 4.1 Validation Testing
+
+**Tools Used**:  
+- W3C HTML Validator  
+- W3C CSS Validator  
+
+**Results**:
+
+### HTML Validation
+**index.html**:
+- Errors: Unclosed `<div>`, stray `<footer>`, missing `alt` attributes.  
+- **Fixes**: Closed tags, added `alt=""` where necessary.
+
+**photo.html**:
+- Error: `<a>` not allowed inside `<ul>`.  
+- **Fix**: Removed `<ul>`.
+
+**about.html**:
+- Error: Unmatched `</p>` tag.  
+- **Fix**: Added matching `<p>`.
+
+**contact.html**:
+- Error: `autocomplete` attribute on `<textarea>`.  
+- **Fix**: Removed attribute.
+
+### CSS Validation
+
+- `header.css`: `padding` had comma — **Fix**: Removed comma.  
+- `index.css`: `margin` comma issue — **Fix**: Removed comma.  
+- `about.css`: `font-weight: 400%` — **Fix**: Used valid value (e.g., 400).  
+- `contact.css`: Invalid `border` property — **Fix**: Removed line.
+
+---
+
+## 4.2 Accessibility Testing
+
+**Tools Used**:  
+- WAVE extension  
+- Chrome DevTools  
+- Live Server  
+
+**Results**:
+
+- **Empty form label**: False positive (label contains image).  
+- **Missing alt text**: Resolved by adding `alt` to footer images.  
+- **Low contrast**: Fixed contrast issues on all affected links:
+  - Home, Photos, About, Contact
+  - Denise Jans, Unsplash
+
+**Keyboard Navigation**:  
+- Manually tested — no issues found.
+- Tab navigation and focus order worked as expected.
+
+---
+
+# ![Sample Image](https://github.com/user-attachments/assets/eceb25d1-edda-44c2-8dc1-a69faf348702)
+
+---
+
