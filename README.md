@@ -1,7 +1,8 @@
 # Project: Experience Melbourne Website
 
 # About
-A responsive, accessible, and SEO-optimized static website about Melbourne. The site includes four pages—Home, Photos, About, and Contact—designed with a mobile-first approach and consistent navigation. AI-generated images and a responsive photo grid enhance the user experience across all devices.
+This project is a responsive, accessible, and SEO-optimized static website about Melbourne. It features four pages—Home, Photos, About, and Contact—designed with a mobile-first approach and consistent navigation. The site includes AI-generated images and a responsive photo grid, providing an engaging user experience across all devices.
+
 
 # Features
 -Mobile-first responsive design.
