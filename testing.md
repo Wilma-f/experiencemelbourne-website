@@ -190,7 +190,51 @@ Website functions and displays correctly on all tested browsers and screen sizes
 
 ---
 
-# ![Sample Image](https://github.com/user-attachments/assets/eceb25d1-edda-44c2-8dc1-a69faf348702)
+#
+<img width="571" height="307" alt="image" src="https://github.com/user-attachments/assets/8c31dc63-d7b6-4dde-9612-4dbfaf8157c6" />
 
----
+
+## 4.3 Browser Testing
+
+**Tools/Software Used**:  
+- BrowserStack Extension  
+- Web Browsers: Chrome, Firefox, Edge  
+
+**Procedures**:  
+- Open the website in each browser (Chrome, Firefox, Edge).  
+- Test the website’s layout and functionality across different devices and screen sizes using the BrowserStack extension.  
+- Manually verify navigation elements (menus, buttons, links) and forms.  
+- Check for responsiveness across desktops, tablets, and smartphones.  
+
+**Results**:  
+Testing was conducted on the following pages:  
+- `index.html` (Home)  
+- `photo.html` (Photo)  
+- `about.html` (About)  
+- `contact.html` (Contact)
+
+The website passed the following checks:  
+- **Browser Compatibility**: Functioned correctly on Chrome, Firefox, and Edge.  
+- **Responsive Design**: Layout adjusted seamlessly across various screen sizes and devices.  
+
+✅ **No errors were found** on any of the tested pages.
+
+<img width="188" height="248" alt="image" src="https://github.com/user-attachments/assets/847e9b14-8a65-4934-860f-20523a841fe2" />
+
+<img width="269" height="205" alt="image" src="https://github.com/user-attachments/assets/de92b8f9-172a-4faf-8be9-d44169a03f2d" />
+
+<img width="193" height="205" alt="image" src="https://github.com/user-attachments/assets/6eda8880-7ecd-4bc7-b59c-a9ffa1bacb11" />
+
+<img width="315" height="186" alt="image" src="https://github.com/user-attachments/assets/9d01e435-599c-4657-aa8f-214a10dfb79b" />
+
+<img width="311" height="201" alt="image" src="https://github.com/user-attachments/assets/c41597d7-89e6-478b-8449-d6e04af64922" />
+
+<img width="349" height="211" alt="image" src="https://github.com/user-attachments/assets/2dc9cfd1-a986-4dd4-809c-55c3e6d618dd" />
+
+
+
+
+
+
+
 
