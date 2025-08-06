@@ -219,6 +219,112 @@ The website passed the following checks:
 
 ✅ **No errors were found** on any of the tested pages.
 
+# 5. Notes of Errors Found
+
+### Errors: `index.html`
+
+![index-html-errors](https://github.com/user-attachments/assets/048f653e-59a8-4944-9186-ff256ad8092d)
+
+**Resolved: `index.html`**
+
+![index-html-resolved](https://github.com/user-attachments/assets/112888a0-1f14-4c0d-b258-641049f25820)
+
+---
+
+### Errors: `photo.html`
+
+![photo-html-error1](https://github.com/user-attachments/assets/90bc558c-570e-44f3-a4c3-5a0e81d4b623)  
+![photo-html-error2](https://github.com/user-attachments/assets/78ebe1f0-9d90-4393-8061-ad9713ae4c15)
+
+---
+
+### Errors: `about.html`
+
+![about-html-error1](https://github.com/user-attachments/assets/536eef26-ff19-4e6e-9889-c74e29265688)  
+![about-html-error2](https://github.com/user-attachments/assets/69288ca8-328b-4625-a11e-75684fb38377)
+
+---
+
+### Errors Resolved (General)
+
+![resolved-error1](https://github.com/user-attachments/assets/504423db-dc8e-4bdb-ad8b-65fcc5c996ab)  
+![resolved-error2](https://github.com/user-attachments/assets/0e44e626-cf51-44cb-83f5-8632378c8b04)
+
+---
+
+## Accessibility Testing
+
+**Errors Found** on:
+- Home page
+- Photo page
+- About page
+- Contact page
+
+### Types of Errors:
+- Empty form label  
+- Missing alternative text  
+- Contrast errors  
+
+![accessibility-errors1](https://github.com/user-attachments/assets/36356c98-5bf1-443c-bad4-9da8d04afabf)  
+![accessibility-errors2](https://github.com/user-attachments/assets/a80e54fb-991e-4314-895b-6c6f0d32e1f2)  
+![accessibility-errors3](https://github.com/user-attachments/assets/dbc1a41c-7305-4c17-bdf6-986301cb3bbf)
+
+---
+
+### Screenshots After Errors Were Resolved:
+
+![resolved-accessibility1](https://github.com/user-attachments/assets/3ca462c7-b652-4d29-a398-c0b1489c2858)
+
+> 🔹 The empty form label is a **false positive**, as the label uses an image.
+
+![resolved-accessibility2](https://github.com/user-attachments/assets/b66d1031-d28c-4cbc-be22-73d72fac7517)
+
+---
+
+# 6. Recommendations for Error Fixing
+
+No **critical errors** were found on the website, but a few **alerts** were detected:
+
+- 🔁 **Redundant title text**: Title attribute text is the same as the visible link or image alt text.  
+- 🖼️ **Image with title only**: An image has a title attribute but is missing an `alt` value.  
+- 🔗 **Redundant links**: Adjacent links point to the same URL.
+
+### Alerts Screenshots:
+
+![alert-1](https://github.com/user-attachments/assets/9dfbe56b-f4c0-465f-9f9e-9b7b60b1db71)  
+![alert-2](https://github.com/user-attachments/assets/4755e966-ceb0-4109-b337-3b352f4c5ac2)
+
+---
+
+# 7. Conclusion
+
+This testing milestone report provides a **structured approach** for conducting:
+
+- ✅ Validation Testing  
+- ✅ Accessibility Testing  
+- ✅ Browser & Responsiveness Testing  
+
+The report includes:
+- Test case descriptions  
+- Execution schedules  
+- Tools and procedures used  
+- Screenshots of errors and resolutions  
+- Recommendations for best practices
+
+By following this template, students or developers can **systematically test a website** for functionality, accessibility, and compatibility, ensuring a polished and professional final product.
+
+
+
+
+
+
+
+
+
+
+
+
+
 <img width="188" height="248" alt="image" src="https://github.com/user-attachments/assets/847e9b14-8a65-4934-860f-20523a841fe2" />
 
 <img width="269" height="205" alt="image" src="https://github.com/user-attachments/assets/de92b8f9-172a-4faf-8be9-d44169a03f2d" />
@@ -229,7 +335,104 @@ The website passed the following checks:
 
 <img width="311" height="201" alt="image" src="https://github.com/user-attachments/assets/c41597d7-89e6-478b-8449-d6e04af64922" />
 
-<img width="349" height="211" alt="image" src="https://github.com/user-attachments/assets/2dc9cfd1-a986-4dd4-809c-55c3e6d618dd" />
+<img width="349" height="211" alt="image" src="https://github.com/user-attachments/assets/2dc9cfd1-a986-4dd4-809c-55c3e6d618dd" />   
+
+5. Notes of Errors Found: 
+
+- Errors: index.html
+
+<img width="493" height="158" alt="image" src="https://github.com/user-attachments/assets/048f653e-59a8-4944-9186-ff256ad8092d" />  
+
+Resolved: index.html 
+<img width="488" height="150" alt="image" src="https://github.com/user-attachments/assets/112888a0-1f14-4c0d-b258-641049f25820" />  
+
+Errors: photo.html 
+<img width="402" height="197" alt="image" src="https://github.com/user-attachments/assets/90bc558c-570e-44f3-a4c3-5a0e81d4b623" />  
+
+<img width="430" height="191" alt="image" src="https://github.com/user-attachments/assets/78ebe1f0-9d90-4393-8061-ad9713ae4c15" />  
+
+Error :about.html 
+
+
+<img width="413" height="168" alt="image" src="https://github.com/user-attachments/assets/536eef26-ff19-4e6e-9889-c74e29265688" />  
+
+
+<img width="387" height="149" alt="image" src="https://github.com/user-attachments/assets/69288ca8-328b-4625-a11e-75684fb38377" />  
+
+Error 2: [Describe another error or issue] 
+
+
+<img width="497" height="224" alt="image" src="https://github.com/user-attachments/assets/9a3a3400-ac9f-47c5-815b-896342e7666a" />  
+
+<img width="504" height="189" alt="image" src="https://github.com/user-attachments/assets/c3817494-2a75-44bb-ab6a-e72db11e1723" />  
+
+Errors Resolved : 
+
+<img width="513" height="218" alt="image" src="https://github.com/user-attachments/assets/504423db-dc8e-4bdb-ad8b-65fcc5c996ab" />  
+
+
+<img width="512" height="201" alt="image" src="https://github.com/user-attachments/assets/0e44e626-cf51-44cb-83f5-8632378c8b04" />  
+
+Accessibility Testing :  
+
+Errors were found on the home page, photo page, about page and contact page.  
+
+empty form label,  Missing alternative text, Contrast Errors  
+
+
+<img width="513" height="233" alt="image" src="https://github.com/user-attachments/assets/36356c98-5bf1-443c-bad4-9da8d04afabf" />
+
+<img width="536" height="245" alt="image" src="https://github.com/user-attachments/assets/a80e54fb-991e-4314-895b-6c6f0d32e1f2" />
+
+<img width="512" height="211" alt="image" src="https://github.com/user-attachments/assets/dbc1a41c-7305-4c17-bdf6-986301cb3bbf" />
+
+Screenshots after errors being resolved: 
+
+
+<img width="514" height="236" alt="image" src="https://github.com/user-attachments/assets/3ca462c7-b652-4d29-a398-c0b1489c2858" />  
+This empty form label is a false positive.  
+
+
+<img width="507" height="220" alt="image" src="https://github.com/user-attachments/assets/b66d1031-d28c-4cbc-be22-73d72fac7517" />
+
+6. Recommendations for Error Fixing: 
+
+ No critical errors are found on the website but there are a few alerts- 
+
+Redundant title text- Title attribute text is the same as text or alternative text. 
+
+Image with title- An image has a title attribute value but no alt value. 
+
+Redundant link- Adjacent links go to the same URL.   
+
+
+<img width="512" height="226" alt="image" src="https://github.com/user-attachments/assets/9dfbe56b-f4c0-465f-9f9e-9b7b60b1db71" />   
+
+<img width="511" height="241" alt="image" src="https://github.com/user-attachments/assets/4755e966-ceb0-4109-b337-3b352f4c5ac2" />
+
+7. Conclusion: 
+
+This testing milestone template provides a structured approach to conducting validation, accessibility, and browser testing for the website. It includes a description of the tests to be conducted, test case descriptions, the schedule for test execution, details of how the tests were conducted, notes of errors found, and recommendations for fixing the errors. By following this template, students can effectively test the website and ensure its functionality, accessibility, and compatibility. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
